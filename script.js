@@ -1,25 +1,33 @@
-// "use strict";
-a = 5;
-console.log(a);
+"use strict";
+// let money,
+// 		time;
+
+// money = prompt("Ваш бюджет на месяц?");
+
+// time = prompt("Введите дату в формате YYYY-MM-DD");
+var money,
+		time,
+		a,
+		b;
+
+let appData = {
+	budjet:money,
+	timeData:time,
+	expenses:{
+		a:"1",
+		b:"50000"
+	},
+	optionalExpenses:{
+
+	},
+	income:[
+	],
+	savings:false
+}
+
+a = prompt("Введите объязательную статью расходов в этом месяце?");
+b = prompt("Во сколько обойдется?");
+var third = alert(appData.expenses);
 
 
-// let answer = +prompt("Есть ли вам 18?", "Да");
-// console.log(typeof(answer));
-// console.log("arr"+4);
-// console.log(4 + +"-object");
 
-let incr = 10,
-		decr = 10;
-
-
-
-// console.log(incr++);
-// console.log(decr--);
-
-// console.log(5%2);
-// console.log("2"===2);
-
-let isChecked = false,
-		isClose = false;
-
-console.log(isChecked || !isClose);
